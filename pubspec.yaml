@@ -1,0 +1,69 @@
+name: money_assistant_2608
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.8
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  google_sign_in: ^6.1.5
+  firebase_auth: any
+  firebase_core: any
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+  intl: ^0.20.2
+  provider: ^6.1.2
+  flutter_screenutil: ^5.9.0
+  flutter_login: ^4.2.1
+  flutter_screen_lock: ^9.0.0
+  flutter_app_lock: ^3.0.0
+  google_fonts: ^6.2.1
+  table_calendar: ^3.0.9
+  syncfusion_flutter_charts: ^33.2.4
+  day_night_time_picker: ^1.3.1
+  sliding_up_panel: ^2.0.0+1
+  keyboard_actions: ^4.2.0
+  fluttertoast: any
+  flutter_swipe_action_cell: ^3.1.4
+  share_plus: ^7.2.1
+  in_app_review: ^2.0.9
+  rate_my_app: ^2.1.0
+
+  # ✅ FIXED ICONS (IMPORTANT)
+  material_design_icons_flutter: ^7.0.7296
+  font_awesome_flutter: ^10.7.0
+  flutter_boxicons: ^3.0.0
+  icofont_flutter: ^1.4.0
+
+  cupertino_icons: ^1.0.6
+
+dependency_overrides:
+  flutter_colorpicker: ^1.0.3
+  fluttertoast: ^8.2.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^2.3.10
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: images/splash_screen.png
+  android: true
+  ios: true
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - lib/project/localization/lang/
+    - images/
